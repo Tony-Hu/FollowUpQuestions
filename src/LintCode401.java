@@ -68,7 +68,7 @@ public class LintCode401 {
 
         for (int i = 0; i < k - 1; i++){
             MatInfo current = minHeap.poll();
-            for (int j = 0; j < 2;j++){
+            for (int j = 0; j < 2; j++){
                 int x = current.getX() + dx[j];
                 int y = current.getY() + dy[j];
                 if ((x < rows) && (y < cols) && (!mark[x][y]))
@@ -81,4 +81,8 @@ public class LintCode401 {
 
         return minHeap.poll().getVal();
     }
+
+
+    //TODO - binary search can be implemented here as Method 2.
+    //See http://www.jiuzhang.com/solution/kth-smallest-number-in-sorted-matrix/ for more detail.
 }
