@@ -1,6 +1,7 @@
 import java.util.PriorityQueue;
 
 /**
+ * [Date]: 06.17.2017
  * [URL]: http://www.lintcode.com/en/problem/kth-smallest-number-in-sorted-matrix/
  * [Description]
  * Find the kth smallest number in at row and column sorted matrix.
